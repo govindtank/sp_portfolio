@@ -6,13 +6,16 @@ import React from "react";
 interface Props {
   src: string;
   title: string;
+  subtitle: string;
   tech: string;
   description: string;
-  githubUrl: string;
-  demoUrl: string;
+  githubUrl?: string;
+  githubText?: string;
+  demoUrl?: string;
+  demoText?: string;
 }
 
-const ProjectCard = ({ src, title, tech, description, githubUrl, demoUrl }: Props) => {
+const ProjectCard = ({ src, title, subtitle, tech, description, githubUrl, demoUrl, githubText, demoText }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full">
       <Image
@@ -24,31 +27,40 @@ const ProjectCard = ({ src, title, tech, description, githubUrl, demoUrl }: Prop
       />
 
       <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
+        <div className="space-y-2">
+          <h1 className="text-2xl font-semibold text-white">{title}</h1>
+          <div className="w-full h-0.5 bg-[#2A0E61]"></div>
+        </div>
+        <h3 className="text-lg font-medium text-[#8b26eb] mb-2">{subtitle}</h3>
         <h2 className="text-l italic text-[#0AD3FF]">{tech}</h2>
-        <p className="mt-2 text-gray-300 break-words">{description}</p>
+        <p className="mt-2 text-gray-300 whitespace-pre-line break-words">{description}</p>
+
 
         <div className="flex justify-center items-center">
 
 
           {/* GitHub Button */}
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-5 p-2 text-white hover:text-gray-300 bg-transparent border-2 rounded cursor-pointer"
-          >
-            Github
-          </a>
+          {githubUrl && (
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-5 p-2 text-white hover:text-gray-300 bg-transparent border-2 rounded cursor-pointer"
+            >
+              {githubText || 'Github'}
+            </a>
+          )}
           {/* Demo Button */}
-          <a
-            href={demoUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-5 p-2 ml-10 text-white hover:text-gray-300 bg-transparent border-2 rounded cursor-pointer"
-          >
-            Demo
-          </a>
+          {demoUrl && (
+            <a
+              href={demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-5 p-2 ml-10 text-white hover:text-gray-300 bg-transparent border-2 rounded cursor-pointer"
+            >
+              {demoText || 'Demo'}
+            </a>
+          )}
         </div>
 
       </div>

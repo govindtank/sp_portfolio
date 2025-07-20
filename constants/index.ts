@@ -84,14 +84,17 @@ export const Socials = [
   {
     name: "LinkedIn",
     src: "/linkedin.svg",
+    url: "https://www.linkedin.com/in/daksh-nauni-69a470208/",
   },
   {
     name: "Github",
     src: "/github.svg",
+    url: "https://github.com/mrcodefrost",
   },
   {
     name: "Resume",
     src: "/resume.svg",
+    url: "https://drive.google.com/file/d/1n8AW6Fq4Or8Iwpw260v76X_KCagwnO-x/view?usp=drive_link",
   },
 ];
 
