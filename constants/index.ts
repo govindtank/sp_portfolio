@@ -91,11 +91,11 @@ export const Socials = [
     src: "/github.svg",
     url: "https://github.com/mrcodefrost",
   },
-  {
-    name: "Resume",
-    src: "/resume.svg",
-    url: "https://drive.google.com/file/d/1n8AW6Fq4Or8Iwpw260v76X_KCagwnO-x/view?usp=drive_link",
-  },
+  // {
+  //   name: "Resume",
+  //   src: "/resume.svg",
+  //   url: "https://drive.google.com/file/d/1n8AW6Fq4Or8Iwpw260v76X_KCagwnO-x/view?usp=drive_link",
+  // },
 ];
 
 
