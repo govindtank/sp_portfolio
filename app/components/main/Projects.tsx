@@ -128,6 +128,7 @@ REST APIs and Firebase integration. Available on Play Store and App Store.`}
           description={`HR operations app covering attendance, leave requests, work-from-home, and punch-in/out timing.
 
 UI based on Figma designs. Integrated Microsoft OAuth, Firebase notifications, and REST APIs.`}
+          demoUrl="https://play.google.com/store/apps/details?id=com.minditsystems.interne"
         />
         <ProjectCard
           src="/miraiCoverPic.png"
