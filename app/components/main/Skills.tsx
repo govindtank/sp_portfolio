@@ -24,6 +24,7 @@ const Skills = () => {
             width={image.width}
             height={image.height}
             index={index}
+            name={image.skill_name}
           />
         ))}
       </div>
@@ -36,6 +37,7 @@ const Skills = () => {
             width={image.width}
             height={image.height}
             index={index}
+            name={image.skill_name}
           />
         ))}
       </div>
@@ -47,9 +49,11 @@ const Skills = () => {
             width={image.width}
             height={image.height}
             index={index}
+            name={image.skill_name}
           />
         ))}
       </div>
+
       {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Full_stack.map((image, index) => (
           <SkillDataProvider

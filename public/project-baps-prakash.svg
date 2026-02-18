@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0533"/>
+      <stop offset="50%" style="stop-color:#2d1b69"/>
+      <stop offset="100%" style="stop-color:#0f0c29"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#dc2626"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff20"/>
+      <stop offset="100%" style="stop-color:#ffffff08"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg1)"/>
+  <!-- Decorative circles -->
+  <circle cx="500" cy="80" r="120" fill="#f97316" opacity="0.08"/>
+  <circle cx="100" cy="350" r="80" fill="#7c3aed" opacity="0.1"/>
+  <!-- Phone mockup -->
+  <g transform="translate(350, 40)">
+    <rect x="0" y="0" width="180" height="320" rx="20" fill="#1e1e2e" stroke="#ffffff30" stroke-width="2"/>
+    <rect x="10" y="40" width="160" height="240" rx="4" fill="url(#card1)"/>
+    <!-- Notch -->
+    <rect x="60" y="8" width="60" height="20" rx="10" fill="#0a0a0a"/>
+    <!-- App content mockup -->
+    <rect x="20" y="55" width="140" height="20" rx="4" fill="#f97316" opacity="0.8"/>
+    <rect x="20" y="85" width="100" height="8" rx="2" fill="#ffffff40"/>
+    <rect x="20" y="100" width="120" height="8" rx="2" fill="#ffffff20"/>
+    <!-- Audio player bar -->
+    <rect x="20" y="130" width="140" height="50" rx="8" fill="#ffffff10" stroke="#f9731640" stroke-width="1"/>
+    <circle cx="45" cy="155" r="12" fill="url(#accent1)"/>
+    <polygon points="42,150 52,155 42,160" fill="white"/>
+    <rect x="65" y="150" width="80" height="4" rx="2" fill="#ffffff30"/>
+    <rect x="65" y="150" width="45" height="4" rx="2" fill="#f97316"/>
+    <rect x="65" y="160" width="30" height="3" rx="1" fill="#ffffff15"/>
+    <rect x="110" y="160" width="30" height="3" rx="1" fill="#ffffff15"/>
+    <!-- List items -->
+    <rect x="20" y="195" width="140" height="25" rx="4" fill="#ffffff08"/>
+    <rect x="20" y="225" width="140" height="25" rx="4" fill="#ffffff08"/>
+    <rect x="20" y="255" width="140" height="15" rx="4" fill="#ffffff05"/>
+  </g>
+  <!-- Text content -->
+  <text x="40" y="100" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">BAPS</text>
+  <text x="40" y="135" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Prakash</text>
+  <text x="40" y="170" fill="#f97316" font-family="Arial, sans-serif" font-size="14" font-weight="600">Secure Audio Streaming</text>
+  <!-- Tech badges -->
+  <rect x="40" y="195" width="65" height="24" rx="12" fill="#7c3aed40" stroke="#7c3aed80" stroke-width="1"/>
+  <text x="72" y="211" fill="#d4bfff" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">Flutter</text>
+  <rect x="115" y="195" width="50" height="24" rx="12" fill="#f9731640" stroke="#f9731680" stroke-width="1"/>
+  <text x="140" y="211" fill="#fdba74" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">AWS</text>
+  <!-- Stats -->
+  <text x="40" y="260" fill="#a78bfa" font-family="Arial, sans-serif" font-size="32" font-weight="bold">50K+</text>
+  <text x="40" y="280" fill="#9ca3af" font-family="Arial, sans-serif" font-size="12">Active Users</text>
+  <!-- Play Store badge -->
+  <g transform="translate(40, 300)">
+    <rect width="130" height="36" rx="6" fill="#ffffff10" stroke="#ffffff30" stroke-width="1"/>
+    <text x="65" y="22" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">▶ Google Play</text>
+  </g>
+</svg>

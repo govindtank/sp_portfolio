@@ -10,28 +10,26 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          {/* <Image
-            src="/NavLogo.png"
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
-          /> */}
-
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            DAKSH NAUNI
+            GOVIND TANK
           </span>
         </a>
 
-        <div className="w-full md:w-[500px] h-full flex flex-row items-center justify-center md:justify-between md:mr-20 mt-2 md:mt-0">
+        <div className="w-full md:w-[700px] h-full flex flex-row items-center justify-center md:justify-between md:mr-20 mt-2 md:mt-0">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
+            <a href="#about-me" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
               About me
             </a>
-            <a href="#skills" className="cursor-pointer">
+            <a href="#skills" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
               Skills
             </a>
-            <a href="#projects" className="cursor-pointer">
+            <a href="#experience" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
+              Experience
+            </a>
+            <a href="#education" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
+              Education
+            </a>
+            <a href="#projects" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
               Projects
             </a>
           </div>

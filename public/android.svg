@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="androidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3DDC84"/>
+      <stop offset="100%" style="stop-color:#2DA65C"/>
+    </linearGradient>
+  </defs>
+  <!-- Android robot (bugdroid) -->
+  <g transform="translate(256,256)">
+    <!-- Head -->
+    <path d="M-120,-60 A120,120 0 0,1 120,-60 L120,-40 L-120,-40 Z" fill="url(#androidGrad)"/>
+    <!-- Left eye -->
+    <circle cx="-55" cy="-75" r="12" fill="white"/>
+    <!-- Right eye -->
+    <circle cx="55" cy="-75" r="12" fill="white"/>
+    <!-- Left antenna -->
+    <line x1="-70" y1="-125" x2="-45" y2="-95" stroke="#3DDC84" stroke-width="10" stroke-linecap="round"/>
+    <!-- Right antenna -->
+    <line x1="70" y1="-125" x2="45" y2="-95" stroke="#3DDC84" stroke-width="10" stroke-linecap="round"/>
+    <!-- Body -->
+    <rect x="-120" y="-30" width="240" height="180" rx="20" ry="20" fill="url(#androidGrad)"/>
+    <!-- Left arm -->
+    <rect x="-162" y="-20" width="32" height="130" rx="16" ry="16" fill="url(#androidGrad)"/>
+    <!-- Right arm -->
+    <rect x="130" y="-20" width="32" height="130" rx="16" ry="16" fill="url(#androidGrad)"/>
+    <!-- Left leg -->
+    <rect x="-80" y="155" width="35" height="80" rx="17" ry="17" fill="url(#androidGrad)"/>
+    <!-- Right leg -->
+    <rect x="45" y="155" width="35" height="80" rx="17" ry="17" fill="url(#androidGrad)"/>
+  </g>
+</svg>

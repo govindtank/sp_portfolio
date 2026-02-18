@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="composeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285F4"/>
+      <stop offset="100%" style="stop-color:#073042"/>
+    </linearGradient>
+    <linearGradient id="composeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3DDC84"/>
+      <stop offset="100%" style="stop-color:#21A15C"/>
+    </linearGradient>
+  </defs>
+  <!-- Jetpack Compose logo - stylized puzzle piece / compose shape -->
+  <g transform="translate(56, 56) scale(0.78)">
+    <!-- Top left piece -->
+    <path d="M128 0L256 128L128 256L0 128Z" fill="url(#composeGrad2)" opacity="0.9"/>
+    <!-- Top right piece -->
+    <path d="M384 0L512 128L384 256L256 128Z" fill="url(#composeGrad1)" opacity="0.85"/>
+    <!-- Bottom left piece -->
+    <path d="M128 256L256 384L128 512L0 384Z" fill="url(#composeGrad1)" opacity="0.85"/>
+    <!-- Bottom right piece -->
+    <path d="M384 256L512 384L384 512L256 384Z" fill="url(#composeGrad2)" opacity="0.9"/>
+    <!-- Center diamond -->
+    <path d="M256 128L384 256L256 384L128 256Z" fill="#3DDC84"/>
+  </g>
+</svg>
