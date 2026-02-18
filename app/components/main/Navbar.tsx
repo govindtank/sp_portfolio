@@ -1,6 +1,6 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
-import React from "react";
+import { prefixPath } from "@/utils/path";
 
 const Navbar = () => {
   return (
@@ -45,7 +45,7 @@ const Navbar = () => {
               className="cursor-pointer hover:opacity-80 transition-opacity"
             >
               <Image
-                src={social.src}
+                src={prefixPath(social.src)}
                 alt={social.name}
                 width={24}
                 height={24}
