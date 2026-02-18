@@ -157,13 +157,12 @@ export const Other_skill = [
 
 export const Projects_data = [
   {
-    title: "BAPS Prakash",
+    title: "BAPS Swaminarayan Prakash",
     subtitle: "Secure Media Engineering",
     tech: "Flutter, AWS CloudFront, audio_service, Android Auto",
     description: "Directed the complete overhaul of the application (50k+ users). Engineered a secure audio streaming engine using AWS CloudFront Signed Cookies, successfully preventing unauthorized access to copyright-protected content. Integrated background audio with Android Auto compatibility.",
     src: "/project-baps-prakash.svg",
-    githubUrl: "https://github.com/govindtank",
-    demoUrl: "https://play.google.com/store/apps/details?id=org.baps.swaminarayanprakash",
+    demoUrl: "https://play.google.com/store/apps/details?id=com.baps.swaminarayanprakash",
     demoText: "Play Store"
   },
   {
@@ -172,17 +171,17 @@ export const Projects_data = [
     tech: "Flutter, Bloc, Clean Architecture, Firebase",
     description: "Spearheaded development of 'Akshar Amrutam,' scaling it to 100,000+ downloads. Enforced strict separation of UI, Domain, and Data layers, resulting in a 99.95% crash-free session rate. Optimized state management using Flutter Bloc.",
     src: "/project-akshar-amrutam.svg",
-    githubUrl: "https://github.com/govindtank",
-    demoUrl: "https://play.google.com/store/apps/details?id=org.baps.akshar_amrutam",
+    demoUrl: "https://play.google.com/store/apps/details?id=com.baps.aksharamrutam",
     demoText: "Play Store"
   },
   {
-    title: "Smartindia/Autozon",
+    title: "Smartindia / Autozon",
     subtitle: "IoT & Hardware Integration",
     tech: "Flutter, MQTT, IoT Hardware",
     description: "Implemented real-time MQTT communication between mobile devices and IoT hardware. Optimized battery usage for companion apps by refactoring background services. Managed end-to-end delivery of international projects.",
     src: "/project-smartindia.svg",
-    githubUrl: "https://github.com/govindtank"
+    demoUrl: "https://play.google.com/store/apps/details?id=com.autozon.autozon",
+    demoText: "Play Store"
   },
   {
     title: "La Crosse View",
@@ -190,7 +189,6 @@ export const Projects_data = [
     tech: "Android Native, Kotlin, Hardware Sync",
     description: "Engineered robust background services for 'La Crosse View,' ensuring reliable data synchronization with weather station hardware. Reduced application startup time by 30% and memory footprint by 20%.",
     src: "/project-lacrosse.svg",
-    githubUrl: "https://github.com/govindtank",
     demoUrl: "https://play.google.com/store/apps/details?id=com.lacrossetechnology.lacrosseview",
     demoText: "Play Store"
   }

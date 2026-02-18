@@ -37,9 +37,7 @@ const ProjectCard = ({ src, title, subtitle, tech, description, githubUrl, demoU
         <p className="mt-2 text-gray-300 whitespace-pre-line break-words">{description}</p>
 
 
-        <div className="flex justify-center items-center">
-
-
+        <div className="flex justify-center items-center gap-5">
           {/* GitHub Button */}
           {githubUrl && (
             <a
@@ -57,7 +55,7 @@ const ProjectCard = ({ src, title, subtitle, tech, description, githubUrl, demoU
               href={demoUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mt-5 p-2 ml-10 text-white hover:text-gray-300 bg-transparent border-2 rounded cursor-pointer"
+              className="inline-block mt-5 p-2 text-white hover:text-gray-300 bg-transparent border-2 rounded cursor-pointer"
             >
               {demoText || 'Demo'}
             </a>
