@@ -9,13 +9,11 @@ interface Props {
   subtitle: string;
   tech: string;
   description: string;
-  githubUrl?: string;
-  githubText?: string;
   demoUrl?: string;
   demoText?: string;
 }
 
-const ProjectCard = ({ src, title, subtitle, tech, description, githubUrl, demoUrl, githubText, demoText }: Props) => {
+const ProjectCard = ({ src, title, subtitle, tech, description, demoUrl, demoText }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full">
       <Image
@@ -38,17 +36,6 @@ const ProjectCard = ({ src, title, subtitle, tech, description, githubUrl, demoU
 
 
         <div className="flex justify-center items-center gap-5">
-          {/* GitHub Button */}
-          {githubUrl && (
-            <a
-              href={githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block mt-5 p-2 text-white hover:text-gray-300 bg-transparent border-2 rounded cursor-pointer"
-            >
-              {githubText || 'Github'}
-            </a>
-          )}
           {/* Demo Button */}
           {demoUrl && (
             <a

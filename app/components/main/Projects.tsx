@@ -23,7 +23,6 @@ const Projects = () => {
             subtitle={project.subtitle}
             tech={project.tech}
             description={project.description}
-            githubUrl={project.githubUrl}
             demoUrl={project.demoUrl}
             demoText={project.demoText}
           />
