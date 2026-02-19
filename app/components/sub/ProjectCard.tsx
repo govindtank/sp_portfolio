@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import React from "react";
-import { prefixPath } from "@/utils/path";
 
 interface Props {
   src: string;
@@ -18,7 +17,7 @@ const ProjectCard = ({ src, title, subtitle, tech, description, demoUrl, demoTex
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] w-full">
       <Image
-        src={prefixPath(src)}
+        src={src}
         alt={title}
         width={600}
         height={400}

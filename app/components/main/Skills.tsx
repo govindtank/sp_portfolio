@@ -7,6 +7,8 @@ import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
 
+import { prefixPath } from "@/utils/path";
+
 const Skills = () => {
   return (
     <section
@@ -86,7 +88,7 @@ const Skills = () => {
             loop
             muted
             autoPlay
-            src="/cards-video.webm"
+            src={prefixPath("/cards-video.webm")}
           />
         </div>
       </div>

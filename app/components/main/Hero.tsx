@@ -1,23 +1,25 @@
+import { prefixPath } from '@/utils/path'
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
 
 const Hero = () => {
   return (
-    <div id='about-me' className= 'relative flex flex-col h-full w-full'>
+    <div id='about-me' className='relative flex flex-col h-full w-full'>
 
-        <video
-        
+      <video
+
         autoPlay
         muted
         loop
         className='rotate 180 absolute top-[-340px] left-0 z-[1] 1-full h-full object-cover'
-        
-        >
 
-            <source src='/blackhole.webm' type='video/webm'/>
+      >
 
-        </video>
-        <HeroContent/>
+        <source src={prefixPath('/blackhole.webm')} type='video/webm' />
+
+      </video>
+
+      <HeroContent />
 
     </div>
   )

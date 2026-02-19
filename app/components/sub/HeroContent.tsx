@@ -7,7 +7,6 @@ import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motio
 import { SparklesIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image';
 
-import { prefixPath } from '@/utils/path';
 
 const HeroContent = () => {
     return (
@@ -57,7 +56,7 @@ const HeroContent = () => {
 
             >
                 <Image
-                    src={prefixPath("/mainIconsdark.svg")}
+                    src="/mainIconsdark.svg"
                     alt="work icons"
                     height={650}
                     width={650}
