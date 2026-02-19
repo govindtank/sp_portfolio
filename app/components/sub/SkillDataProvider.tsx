@@ -4,6 +4,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import Image from 'next/image';
+import { prefixPath } from '@/utils/path';
 
 interface Props {
     src: string;
@@ -35,7 +36,7 @@ const SkillDataProvider = ({ src, width, height, index, name }: Props) => {
             className="group relative flex flex-col items-center"
         >
             <Image
-                src={src}
+                src={prefixPath(src)}
                 width={width}
                 height={height}
                 alt={name}
