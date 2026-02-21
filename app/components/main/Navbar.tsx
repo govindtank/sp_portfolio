@@ -4,7 +4,7 @@ import { prefixPath } from "@/utils/path";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-3 md:px-10">
       <div className="w-full h-full flex flex-col md:flex-row items-center justify-between m-auto px-[10px] py-2 md:py-0">
         <a
           href="#about-me"
@@ -16,20 +16,20 @@ const Navbar = () => {
         </a>
 
         <div className="w-full md:w-[700px] h-full flex flex-row items-center justify-center md:justify-between md:mr-20 mt-2 md:mt-0">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
+          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] px-3 md:px-[20px] py-[10px] rounded-full text-gray-200 text-xs md:text-sm">
+            <a href="#about-me" className="cursor-pointer hover:text-[#b49bff] transition-colors text-xs md:text-sm">
               About me
             </a>
-            <a href="#skills" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
+            <a href="#skills" className="cursor-pointer hover:text-[#b49bff] transition-colors text-xs md:text-sm">
               Skills
             </a>
-            <a href="#experience" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
+            <a href="#experience" className="cursor-pointer hover:text-[#b49bff] transition-colors text-xs md:text-sm">
               Experience
             </a>
-            <a href="#education" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
+            <a href="#education" className="cursor-pointer hover:text-[#b49bff] transition-colors text-xs md:text-sm">
               Education
             </a>
-            <a href="#projects" className="cursor-pointer hover:text-[#b49bff] transition-colors text-sm">
+            <a href="#projects" className="cursor-pointer hover:text-[#b49bff] transition-colors text-xs md:text-sm">
               Projects
             </a>
           </div>

@@ -28,12 +28,12 @@ const ProjectCard = ({ src, title, subtitle, tech, description, demoUrl, demoTex
 
       <div className="relative p-4">
         <div className="space-y-2">
-          <h1 className="text-2xl font-semibold text-white">{title}</h1>
+          <h1 className="text-lg md:text-xl lg:text-2xl font-semibold text-white">{title}</h1>
           <div className="w-full h-0.5 bg-[#2A0E61]"></div>
         </div>
-        <h3 className="text-lg font-medium text-[#8b26eb] mb-2">{subtitle}</h3>
-        <h2 className="text-l italic text-[#0AD3FF]">{tech}</h2>
-        <p className="mt-2 text-gray-300 whitespace-pre-line break-words">{description}</p>
+        <h3 className="text-base md:text-lg font-medium text-[#8b26eb] mb-2">{subtitle}</h3>
+        <h2 className="text-sm md:text-base italic text-[#0AD3FF]">{tech}</h2>
+        <p className="mt-2 text-sm md:text-base text-gray-300 whitespace-pre-line break-words">{description}</p>
 
 
         <div className="flex justify-center items-center gap-5">

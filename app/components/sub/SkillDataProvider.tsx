@@ -42,6 +42,7 @@ const SkillDataProvider = ({ src, width, height, index, name }: Props) => {
                 alt={name}
                 title={name}
                 unoptimized={src.endsWith('.svg')}
+                className="w-12 h-12 md:w-16 md:h-16 lg:w-20 lg:h-20"
             />
             <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 transition-all rounded bg-gray-900 px-2 py-1 text-xs text-white group-hover:scale-100 z-50 whitespace-nowrap border border-[#7042f861]">
                 {name}
